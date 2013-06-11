@@ -1,13 +1,14 @@
 Odpalanie:
 
 0. git clone
-1. cd cloud-onp; virtualenv .; source bin/activate
-2. pip install -r requirements.txt
-3. DEBUG=1 OP="+" python server.py 5001
-4. w nowym terminalu: powtórz punkt 1 i 3 z operatorem minus i portem 5002
-5. powtórz 4 dla * i /, zobacz w funkcji find_calculators
-6. jeszcze raz powtórz 1 i 3, tym razem bez OP=
-7. wejdź na http://localhost:5000
-8. wpisz wyrażenie w ONP, patrz na poprzednie terminale gdzie idą obliczenia
+1. virtualenv cloud-onp.
+2. cd cloud-onp; source bin/activate
+3. pip install -r requirements.txt
+4. DEBUG=1 OP="+" python server.py 5001
+5. w nowym terminalu: powtórz punkt 2 i 4 z operatorem minus i portem 5002
+6. powtórz 5 dla * i /, zobacz w funkcji find_calculators
+7. jeszcze raz powtórz 2 i 4, tym razem bez OP=
+8. wejdź na http://localhost:5000
+9. wpisz wyrażenie w ONP, patrz na poprzednie terminale gdzie idą obliczenia
 
 
