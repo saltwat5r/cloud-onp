@@ -1,0 +1,9 @@
+{% if result %}
+<h1>Wynik</h1>
+{{ result }}
+{% endif %}
+<h1>Oblicz</h1>
+<form action="." method="POST">
+  <input type="text" name="onp"/>
+  <button type="submit">Oblicz</button>
+</form>
